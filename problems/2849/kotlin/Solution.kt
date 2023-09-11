@@ -13,11 +13,7 @@ class Solution {
             if (minTime < maxTime) {
                 true
             } else {
-                if (t == 1) {
-                    false
-                } else {
-                    true
-                }
+                t != 1
             }
         }
     }
